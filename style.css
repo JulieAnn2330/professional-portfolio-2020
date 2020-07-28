@@ -1,5 +1,36 @@
 #body {
     background-color:gray;
+    height: 100%;
+    width: 100%
+}
+
+/* Style of ampersand */
+.ampersand {
+  margin-right: 10px;
+}
+
+/* 'Style of brand' */
+.brand {
+  font-family: 'Montserrat', sans-serif;
+  color:rgb(21, 9, 92);
+  font-size: 25px;
+  margin-right: 700px;
+}
+
+/* Frame around image */
+.frame {
+  float: left;
+  width: 400px;
+  height: 572px;
+  border: 3px solid #6699cc;
+  background: #6699cc;
+  margin: auto;
+  padding: 15px 10px;
+}
+img {
+  float: left;
+  width: 100%;
+  height: 100%;
 }
 
 /* Carousel CSS */
@@ -72,3 +103,4 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
