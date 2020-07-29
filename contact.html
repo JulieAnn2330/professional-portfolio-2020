@@ -3,40 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Lind to CSS -->
+    <!-- LInk to Bulma -->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <!-- Link to CSS stylesheet> -->
     <link rel="stylesheet" href="style.css">
+    <!-- Link to Bulma stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
       <!-- Link to fontawesome -->
   <script src="https://kit.fontawesome.com/5892237bfb.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Link to Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
       <!-- Link to favicon -->
   <link rel="shortcut icon" href="ImageAssets/ampersand.png">
-<!-- Bulme Styles -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
-     <!-- Link to Google Font -->
-     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-     <link rel="stylesheet" href="./style.css">
-  <title>Contact-Portfolio</title>
+  <title>Home-Portfolio</title>
 </head>
+
 <body id="body">
 
   <div class="block">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar" id=navbar role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="./Assets/ampersand.png">
-        <img src="./Assets/ampersand.png" alt="Ampersand">
+     <img src="./Assets/ampersand.png" alt="Ampersand">
       </a>
   
-     <div class="navbar-end">
+    <div id="navbarBasicExample">
+      <div class="navbar-start">
+        <a class="navbar-item" id=navbarLeft>
+          Portfolio of Julie Ann Schaub
+        </a>
+  
+        <div class="navbar-end">
         <div class="navbar-item">
-          <div class="buttons">
-            <a class="button is-primary">
-              <strong>Sign up</strong>
+          <div class="buttons has-addons" id="navbarBtns">
+            <a href="./index.html" class="button" id="button">
+              Home
             </a>
-            <a class="button is-light">
-              Log in
+            <a href="./portfolio.html" class="button" id="button">
+              Portfolio
+            </a>
+            <a href="./contact.html" class="button" id="button">
+              <strong>Contact</strong>
             </a>
         </nav>
           </div>
@@ -57,6 +67,7 @@
     </ul>
     </div>
 </section>
+
 <!-- Contact info collection -->
 <div class="col-md-6">
 <h3>Contact Me</h3>
@@ -82,11 +93,12 @@
 </div>
 </div>
 
-<div class="footer-margin">
-<footer id="sticky-footer" class="py-4 bg-secondary text-white">
-  <div class="container text-center">
-    <small>Created by Julie Ann Schaub, 2020</small>
-  </div>
+<footer class="card-footer" id="footer">
+  <p class="card-footer-item">
+      <span>
+         <a id="footerText">Created by Julie Ann Schaub for the University of Kansas Full Stack Bootcamp, August 2020</a>
+          <a href=""></a>
+      </span>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
