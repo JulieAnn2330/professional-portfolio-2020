@@ -1,7 +1,33 @@
 #body {
-    background-color:gray;
+    background-color:lightgray;
     height: 100%;
     width: 100%
+}
+
+#navbar {
+  background-color: steelblue;
+  padding: 10px;
+}
+
+.navbar-brand {
+  margin-left: 15px;
+  height: 40px;
+  width:50px;
+}
+
+#navbarLeft{
+  color: white;
+  font-size: 25px;
+}
+
+#navbarBtns {
+  margin-left: 950px;
+
+}
+
+#button {
+  background-color: slategrey;
+  color: white;
 }
 
 /* Style of ampersand */
