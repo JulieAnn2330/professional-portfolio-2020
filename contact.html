@@ -39,65 +39,94 @@
         <div class="navbar-end">
         <div class="navbar-item">
           <div class="buttons has-addons" id="navbarBtns">
+        
             <a href="./index.html" class="button" id="button">
+              <span class="icon is-small is-left" id="icon">
+                <i class="fas fa-home" id="icon"></i>
+              </span> 
               Home
             </a>
             <a href="./portfolio.html" class="button" id="button">
+              <span class="icon is-small is-left" id="icon">
+                <i class="fas fa-briefcase"></i>
+              </span>
               Portfolio
             </a>
             <a href="./contact.html" class="button" id="button">
+              <span class="icon is-small is-left" id="icon">
+                <i class="fas fa-phone" id="icon"></i>
+              </span> 
               <strong>Contact</strong>
             </a>
         </nav>
           </div>
 
-       <!--Contact Me Info  -->
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-6">
-    <section id="contact-info">
-         <h2>Contact Info</h2>
-        <ul>
-       <li><b>Email:</b> <a class="link" href="mailto: julie.schaub@hotmail.com" target="blank">julie.schaub@hotmail.com</a></li>
-       <li><b>GitHub:</b> <a class="link" href="https://github.com/JulieAnn2330" target="blank">JulieAnn2330</a></li>
-       <li><b>Portfolio:</b> <a class="link" href="https://julieann2330.github.io/responsive-portfolio/" target="blank">Julie Ann Schaub: Portfolio - 2020</a></li>
-      <li><b>LinkedIn:</b> <a class="link" href="https://www.linkedin.com/in/julie-schaub" target="blank">Julie Schaub</a></li>
-      <li><b>Cell/Text:</b> 913.284.6548</li>
-      <li><b>Location:</b> Midtown, Kansas City, MO</li>
-    </ul>
-    </div>
-</section>
+          <div class="content">
+            <div class="block">
+            <div class="columns" id="list">
+               <div class="column is-6">
+                  <ul class="is-bullet">
+                    <li><b>Email:</b> <a class="link" href="mailto: julie.schaub@hotmail.com" target="blank">julie.schaub@hotmail.com</a></li>
+                    <li><b>GitHub:</b> <a class="link" href="https://github.com/JulieAnn2330" target="blank">JulieAnn2330</a></li>
+                    <li><b>Portfolio:</b> <a class="link" href="https://julieann2330.github.io/responsive-portfolio/" target="blank">Julie Ann Schaub: Portfolio - 2020</a></li>
+                   <li><b>LinkedIn:</b> <a class="link" href="https://www.linkedin.com/in/julie-schaub" target="blank">Julie Schaub</a></li>
+                   <li><b>Cell/Text:</b> 913.284.6548</li>
+                   <li><b>Location:</b> Midtown, Kansas City, MO</li>
+                 </ul>
+                </div>
 
-<!-- Contact info collection -->
-<div class="col-md-6">
-<h3>Contact Me</h3>
-<form>
-      <div id="contact" class="form-group">
-   <label for="exampleFormControlSelect1">Name</label>
-    <textarea class="form-control" id="exampleFormControlSelect1" rows=1 placeholder="Jane Doe"></textarea>
-  </div>
-  <div id="contact" class="form-group">
-      <label for="exampleFormControlInput1">Email address</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
-  <div id="contact" class="form-group">
-    <label for="exampleFormControlTextarea1">Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-<form action="mailto:julie.schaub@hotmail.com">
-  <input class="submit" class="btn btn-primary" type="submit" value="Submit">
- </form>
-</div>
-</div>
-</form>
-</div>
+              <div class="column is-4">
+                <div class="block">
+                  <form>
+                      <div class="field" id="#name">
+                          <label class="label">
+                            <span class="icon is-small is-left">
+                              <i class="fas fa-user"></i>
+                            </span>
+                            Name</label>
+                          <input type="text" class="input" placeholder="Enter Name">
+                      </div>
+                       <div class="field" id=#email>
+                       <label class="label">
+                         <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                      Email Address</label>
+                       <input type="text" class="input" placeholder="Enter Email">
+                   </div>
+                   <div class="field">
+                       <label class="label">
+                        <span class="icon is-small is-left">
+                          <i class="fas fa-phone"></i>
+                        </span> 
+                        Phone (optional)</label>
+                       <input type="text" class="input" placeholder="Enter Phone">
+                   </div>
+                  
+               <div class="field">
+                   <label class="label">
+                    <span class="icon is-small is-left">
+                      <i class="fas fa-pen"></i>
+                    </span>  
+                    Message</label>
+                   <p class="control">
+                       <textarea class="textarea" placeholder="Textarea"></textarea>
+                   </p>
+               </div>
+           </form>
+           </div>
+           <div class="control">
+            <button class="button is-medium" id="button">Submit</button>
+          </div>
+
+       </div>
 </div>
 
 <footer class="card-footer" id="footer">
   <p class="card-footer-item">
       <span>
-         <a id="footerText">Created by Julie Ann Schaub for the University of Kansas Full Stack Bootcamp, August 2020</a>
-          <a href=""></a>
+        <a id="footerText"><strong>Created by Julie Ann Schaub for the University of Kansas Full Stack Bootcamp, August 2020</strong></a>
+        <a href=""></a>
       </span>
 
   <!-- Optional JavaScript -->

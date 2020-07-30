@@ -1,10 +1,13 @@
+
+
 #body {
     background-color:lightgray;
-}
+  }
 
 #navbar {
   background-color: steelblue;
   padding: 10px;
+  font-family: 'Questrial', sans-serif;
 }
 
 .navbar-brand {
@@ -26,6 +29,7 @@
 #button {
   background-color: slategrey;
   color: white;
+  font-family: 'Questrial', sans-serif;
 }
 
 /* Style of ampersand */
@@ -35,7 +39,7 @@
 
 /* 'Style of brand' */
 .brand {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Questrial', sans-serif;
   color:rgb(21, 9, 92);
   font-size: 25px;
   margin-right: 700px;
@@ -61,90 +65,70 @@ img {
   background-color: lightgray;
   font-size: 40px;
   margin-left: -25px;
+  font-family: 'Questrial', sans-serif;
 }
 
 #aboutMe {
   background-color: lightgray;
   margin-top: -25px;
+  font-family: 'Questrial', sans-serif;
 }
 
-/* Carousel CSS */
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 694px;
-  position: relative;
-  margin: auto;
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+#spotlightText{
+  font-size: 50px;
+  color: navy;
   text-align: center;
+  margin-top: 60px;
+  font-family: 'Merienda', cursive;
 }
 
-/* Number text (1/6 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+#slidePics{
+  margin-right: 25px;
+  margin-top: -20px;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+#description {
+  font-size: 16px;
+  color: navy;
+  line-height: 1.75em;
+  font-family: 'Questrial', sans-serif;
 }
 
-.active {
-  background-color: #717171;
+.submit {
+  background-color: slategray;
+  color: white;
+  font-family: 'Questrial', sans-serif;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+#email, #name{
+  margin-left: 10px;
+  font-family: 'Questrial', sans-serif;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+#icon {
+  margin-left: 2px;
+  margin-right: 5px;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+#list {
+  margin-left: 60px;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+.link {
+  color: steelblue;
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
 }
-
 
 #footer {
-  background-color: lightgray;
+  margin-top: 110px;
+  background-color: steelblue;
 }
 
 #footerText {
   text-align: center;
-  color: steelblue;
+  color: white;
+  font-family: 'Questrial', sans-serif;
 }
