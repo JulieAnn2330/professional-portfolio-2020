@@ -66,68 +66,66 @@
             <div class="columns" id="list">
                <div class="column is-6">
                   <ul class="is-bullet">
-                    <li><b>Email:</b> <a class="link" href="mailto: julie.schaub@hotmail.com" target="blank">julie.schaub@hotmail.com</a></li>
-                    <li><b>GitHub:</b> <a class="link" href="https://github.com/JulieAnn2330" target="blank">JulieAnn2330</a></li>
+                    <li><b>Email:</b> <a class="link" href="mailto: julie.schaub@midtownfullstack.com" target="blank">julie.schaub@midtownfullstack.com</a></li>
+                    <li><b>GitHub:</b> <a class="link" href="https://github.com/JulieAnn2330" target="blank">https://github.com/JulieAnn2330</a></li>
                     <li><b>Portfolio:</b> <a class="link" href="https://julieann2330.github.io/responsive-portfolio/" target="blank">Julie Ann Schaub: Portfolio - 2020</a></li>
-                   <li><b>LinkedIn:</b> <a class="link" href="https://www.linkedin.com/in/julie-schaub" target="blank">Julie Schaub</a></li>
+                   <li><b>LinkedIn:</b> <a class="link" href="https://www.linkedin.com/in/julie-schaub" target="blank">https://www.linkedin.com/in/julie-schaub</a></li>
+                   <li><b>Resume:</b> <a class="link" href="https://julieann2330.github.io/resume/" target="blank">https://julieann2330.github.io.resume</a></li>
                    <li><b>Cell/Text:</b> 913.284.6548</li>
                    <li><b>Location:</b> Midtown, Kansas City, MO</li>
                  </ul>
                 </div>
 
-              <div class="column is-4">
-                <div class="block">
-                  <form>
-                      <div class="field" id="#name">
-                          <label class="label">
-                            <span class="icon is-small is-left">
-                              <i class="fas fa-user"></i>
-                            </span>
-                            Name</label>
-                          <input type="text" class="input" placeholder="Enter Name">
-                      </div>
-                       <div class="field" id=#email>
-                       <label class="label">
-                         <span class="icon is-small is-left">
-                        <i class="fas fa-envelope"></i>
+                <div class="content">
+                  <div class="block">
+                  <div class="columns" id="list">
+                     <div class="column is-6">
+                    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/xwkryppl" method="post">
+                    <fieldset id="fs-frm-inputs">
+                      <label for="full-name" id="name">    
+                       <span class="icon is-small is-left" id="icon">
+                        <i class="fas fa-user"></i>
                       </span>
-                      Email Address</label>
-                       <input type="text" class="input" placeholder="Enter Email">
-                   </div>
-                   <div class="field">
-                       <label class="label">
-                        <span class="icon is-small is-left">
-                          <i class="fas fa-phone"></i>
-                        </span> 
-                        Phone (optional)</label>
-                       <input type="text" class="input" placeholder="Enter Phone">
-                   </div>
-                  
-               <div class="field">
-                   <label class="label">
-                    <span class="icon is-small is-left">
-                      <i class="fas fa-pen"></i>
-                    </span>  
-                    Message</label>
-                   <p class="control">
-                       <textarea class="textarea" placeholder="Textarea"></textarea>
-                   </p>
-               </div>
-           </form>
-           </div>
-           <div class="control">
-            <button class="button is-medium" id="button">Submit</button>
-          </div>
+                      Full Name
+                    </label><br>
+                      <input type="text" name="name" id="full-name" placeholder="First and Last" required=""><br>
+                      <label for="email-address" id="email">
+                        <span class="icon is-small is-left" id="icon">
+                          <i class="fas fa-envelope"></i>
+                        </span>
+                        Email Address
+                      </label><br>
+                      <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required=""><br>
+                      <label for="message" id="message">
+                        <span class="icon is-small is-left" id="icon">
+                          <i class="fas fa-pen"></i>
+                        </span>  
+                        Message
+                      </label><br>
+                      <textarea rows="5" name="message" id="message" placeholder="Enter message here." required=""></textarea>
+                      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+                    <input type="submit" value="Submit" id=submitBtn>
+                  </form>
+                 <br>
+              </div>
+              </div>
+               
 
-       </div>
+              <div class="content">
+                <div class="block">
+                <div class="columns">
+              <div class="column is-12">
+                 <footer class="card-footer" id="footerContact">
+                   <p class="card-footer-item">
+                      <span>
+                        <a id="footerText"><strong>Created by Julie Ann Schaub for the University of Kansas Full Stack Bootcamp, August 2020</strong></a>
+                        <a href=""></a>
+                      </span>
+    
+
+
 </div>
-
-<footer class="card-footer" id="footer">
-  <p class="card-footer-item">
-      <span>
-        <a id="footerText"><strong>Created by Julie Ann Schaub for the University of Kansas Full Stack Bootcamp, August 2020</strong></a>
-        <a href=""></a>
-      </span>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -137,5 +135,3 @@
 </body>
 </html>
     
-</body>
-</html>

@@ -116,16 +116,46 @@ img {
   font-size: 20px;
 }
 
-.link {
+.link, #name, #email, #message {
   color: steelblue;
   font-family: 'Questrial', sans-serif;
   font-size: 20px;
+ }
+
+ #icon {
+   margin-right: 10px;
+ }
+
+#full-name, #email-address {
+  width: 300px;
 }
 
-#footer {
-  margin-top: 110px;
+#message {
+  width: 500px;
+}
+
+#submitBtn {
+  background-color: slategray;
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  padding: 10px;
+}
+
+#footer, #footerContact {
+  float: left;
+  width: 100%;
+  /* margin-top: 400px; */
   background-color: steelblue;
 }
+
+/* #footerContact {
+  height: 20px;
+  font-size: 10px;
+  margin-left: -1450px;
+  width: 1500px;
+  margin-top: 400px;
+  background-color: steelblue;
+} */
 
 #footerText {
   text-align: center;
