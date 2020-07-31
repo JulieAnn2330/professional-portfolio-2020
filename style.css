@@ -92,6 +92,8 @@ img {
   color: navy;
   line-height: 1.75em;
   font-family: 'Questrial', sans-serif;
+  width: 500px;
+  margin-bottom: 30px;
 }
 
 .submit {

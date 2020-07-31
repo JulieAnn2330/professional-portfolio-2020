@@ -1,6 +1,6 @@
 bulmaCarousel.attach('#carousel-demo', {
   slidesToScroll: 1,
-  slidesToShow: 1
+  slidesToShow: 2
 });
 
 // Initialize all div with carousel class
