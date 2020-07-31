@@ -1,6 +1,6 @@
-body {
+html, body {
     background-color:lightgray;
-    width: 100%;
+    margin: 0px;
     height: 100%;
   }
 
@@ -92,7 +92,7 @@ img {
   color: navy;
   text-align: center;
   margin-top: 60px;
-  font-family: 'Merienda', cursive;
+  font-family: 'Questrial', sans-serif;
 }
 
 #slidePics{
@@ -157,30 +157,22 @@ img {
   padding: 10px;
 }
 
-/* #footer, #footerContact {
-  float: left;
-  width: 100%;
-  background-color: steelblue;
-} */
-
-/* #footerContact {
-  height: 20px;
-  font-size: 10px;
-  margin-left: -1450px;
-  width: 1500px;
-  margin-top: 400px;
-  background-color: steelblue;
-} */
-
 #footer {
   background-color: steelblue;
-  padding: 10px;
   font-family: 'Questrial', sans-serif;
 }
 
 #footerText{
   color: white;
-  font-size: 16px;
+  font-size: 13px;
   text-align: center;
-  margin-left: 400px;
+  margin-left: 500px;
+  padding: 15px;
+}
+
+/* Style of @media */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightgray;
+  }
 }
