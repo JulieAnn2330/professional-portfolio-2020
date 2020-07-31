@@ -1,13 +1,20 @@
-
-
-#body {
+body {
     background-color:lightgray;
+    width: 100%;
+    height: 100%;
   }
 
 #navbar {
   background-color: steelblue;
   padding: 10px;
   font-family: 'Questrial', sans-serif;
+}
+
+#navbarAboutMe {
+  background-color: steelblue;
+  padding: 10px;
+  font-family: 'Questrial', sans-serif;
+  margin-top: -25px;
 }
 
 .navbar-brand {
@@ -52,9 +59,14 @@
   height: 429px;
   border: 3px solid #6699cc;
   background: #6699cc;
-  margin: 20px 15px 15px 150px;
+  margin: 20px 15px 35px 150px;
   padding: 15px 10px;
 }
+
+#aboutMe{
+  margin-top: 600px;
+}
+
 img {
   float: left;
   width: 300px;
@@ -72,6 +84,7 @@ img {
   background-color: lightgray;
   margin-top: -25px;
   font-family: 'Questrial', sans-serif;
+  
 }
 
 #spotlightText{
@@ -85,6 +98,7 @@ img {
 #slidePics{
   margin-right: 25px;
   margin-top: -20px;
+  margin-bottom: 20px;
 }
 
 #description {
@@ -143,12 +157,11 @@ img {
   padding: 10px;
 }
 
-#footer, #footerContact {
+/* #footer, #footerContact {
   float: left;
   width: 100%;
-  /* margin-top: 400px; */
   background-color: steelblue;
-}
+} */
 
 /* #footerContact {
   height: 20px;
@@ -159,8 +172,15 @@ img {
   background-color: steelblue;
 } */
 
-#footerText {
-  text-align: center;
-  color: white;
+#footer {
+  background-color: steelblue;
+  padding: 10px;
   font-family: 'Questrial', sans-serif;
+}
+
+#footerText{
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 400px;
 }
