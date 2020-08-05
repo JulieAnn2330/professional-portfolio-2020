@@ -8,6 +8,6 @@ Technologies Used: HTML, Bulma, CSS, JavaScript, Formspree
 
 This is a homework assignment that I created for the University of Kansas Coding BootCamp. 
 
-My professional portfolio is a big part of being employer-ready. I have chosen to highlight four projects that I am especially proud of, with links to the GitHub repositories and the deployed prujects. An enhanced feature that I added is a fully funcntional email message platform, utilizing Formspree.
+My professional portfolio is a big part of being employer-ready. I have chosen to highlight four projects that I am especially proud of, with links to the GitHub repositories and the deployed prujects. An enhanced feature that I added is a fully funcntional email message platform on the Contact page, utilizing Formspree.
 
 I utilized websites including Bulma, W3Schools and Formspree to complete this project.
