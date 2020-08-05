@@ -1,10 +1,10 @@
 Professional Portfolio
 
-Deployed program: https://julieann2330.github.io/code-quiz/
+Deployed program: https://julieann2330.github.io/professional-portfolio/
 
 Technologies Used: HTML, Bulma, CSS, JavaScript, Formspree
 
-![image](https://user-images.githubusercontent.com/64329660/88986592-0ab9cf00-d299-11ea-93ba-9a417dba7711.png)
+![image](https://user-images.githubusercontent.com/64329660/89452201-e0e22b80-d722-11ea-9572-78651c290748.png)
 
 This is a homework assignment that I created for the University of Kansas Coding BootCamp. 
 
