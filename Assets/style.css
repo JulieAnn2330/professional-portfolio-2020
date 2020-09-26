@@ -1,7 +1,7 @@
 html, body {
     background-color:lightgray;
     margin: 0px;
-    height: 100%;
+    height: 250%;
   }
 
 #navbar {
@@ -169,6 +169,11 @@ img {
   text-align: center;
   margin-left: 500px;
   padding: 15px;
+}
+
+.tech-sample {
+  margin-left: 35px;
+  width: 80%;
 }
 
 /* Style of @media */
